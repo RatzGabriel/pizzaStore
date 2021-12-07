@@ -1,49 +1,41 @@
-Project title
-
+## Project title
 An Eccomerce Store to sell tasty Pizzas build after a turorial to learn Gatsby
 
-
-Motivation
-
+## Motivation
 I wanted to learn static site generators, mainly so i can code my portfolio on Gatsby
 
-Build status
+## Build status
+Finished
 
-Finished Build
 
-Code style
 
+## Code style
 ESLint
 Prettier
 
-
-Screenshots
-
+ 
+## Screenshots
 https://ibb.co/wR36dNf
 
-Tech/framework used
-
-Gatsby
-GraphlQL
-Styled Components
-Sanity
-
-Features
-
-Easy to manage
+## Tech/framework used
 
 
-Installation
+<b>Built with</b>
+- [Gatsby](https://www.gatsbyjs.com)
+- [GraphQL](https://graphql.org)
+- [Styled Components](https://styled-components.com)
+- [Sanity](https://www.sanity.io)
 
-Provide step by step series of examples and explanations about how to get a development env running.
+## Features
+Easy to use 
 
 
-
-Credits
-
+## Credits
 To the master Wes-Bos
 https://github.com/wesbos/master-gatsby
 
 
 
-MIT © Gabriel Ratz
+
+
+MIT © [Gabriel Ratz]()
