@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 const gql = String.raw;
-// lqip = low qualtiy image placeholder
+
 const deets = `
     name
     _id
@@ -21,6 +21,7 @@ export default function useLatestData() {
   // slicemasters
   const [slicemasters, setSlicemasters] = useState();
   // Use a side effect to fetcht he data from the graphql endpoint
+  console.log('test');
   useEffect(function () {
     // when the component loads, fetch the data
     fetch(process.env.GATSBY_GRAPHQL_ENDPOINT, {
@@ -52,6 +53,7 @@ export default function useLatestData() {
         setSlicemasters(res.data.StoreSettings.slicemaster);
       })
       .catch((err) => {
+        console.log('SHOOOOOT');
         console.log(err);
       });
   }, []);

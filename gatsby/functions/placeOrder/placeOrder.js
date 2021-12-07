@@ -1,7 +1,7 @@
 const nodemailer = require('nodemailer');
 
 function generateOrderEmail({ order, total }) {
-  console.log('generate email');
+  console.log(order, total);
   return `<div>
     <h2>Your Recent Order for ${total}</h2>
     <p>Please start walking over, we will have your order ready in the next 20 mins.</p>

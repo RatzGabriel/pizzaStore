@@ -5,7 +5,7 @@ function LoadingGrip({ count }) {
   return (
     <ItemsGrid>
       {Array.from({ length: count }, (_, i) => (
-        <ItemStyles>
+        <ItemStyles key={i}>
           <p>
             <span className="mark">Loading...</span>
           </p>
